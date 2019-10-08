@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>io.github.jiarus.HowManyCode</id>
+    <name>HowManyCode</name>
+    <vendor email="jiaru2016@gmail.com" url="jiarus.github.io">jiarus</vendor>
+
+    <description>
+        1.统计当前project中一共写了多少行代码
+
+        2.支持配置要统计的文件类型，或忽略某些文件（计划以后版本支持）。
+    </description>
+
+    <!--插件动作-->
+    <actions>
+        <!-- Add your actions here -->
+        <action id="HowManyCodeAction" class="io.github.jiarus.action.HowManyCodeAction" text="HowManyCode"
+                description="Statistics of the total number of code for the current project">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
