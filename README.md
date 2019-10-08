@@ -9,3 +9,5 @@ IntelliJ IDEA 插件
 3.支持统计本地未提交代码行数. //todo。
 
 4.写着玩的.
+# 效果图
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7qyg61mkqj30ki03gmxe.jpg)
